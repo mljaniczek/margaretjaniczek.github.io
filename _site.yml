@@ -1,7 +1,7 @@
 hname: "Margaret Hannum"
 output_dir: "."
 navbar:
-  title: "Home"
+  title: Margaret Hannum
   right:
     - text: "About"
       href: about.html
@@ -15,6 +15,6 @@ navbar:
       href: https://www.linkedin.com/in/margaret-hannum-10140457/
 output:
   html_document:
-    theme: cosmo
+    theme: paper
     include:
       after_body: footer.html

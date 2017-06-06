@@ -1,28 +1,11 @@
 ---
-title: "Margaret Hannum"
+title: " "
 ---
 
-### MS Candidate in Biostatistics, Columbia University
 
-```{r, echo = FALSE, out.width = "18%"}
+```{r, echo = FALSE, out.width = "75%"}
 library(knitr)
-knitr::include_graphics("Hannum.jpg")
+knitr::include_graphics("Mplot01.png")
+
+#I am a current Master's Student in Biostatistics at Columbia University, interested in clinical research and statistical genetics. 
 ```
-
-I am currently pursing my MS in Biostatistics at Columbia University Mailman School of Public Health. 
-
-This summer I am conducting research on breast cancer subtype classifications using data from [The Cancer Genome Atlas](https://cancergenome.nih.gov/) with [Ronglai Shen](https://www.mskcc.org/profile/ronglai-shen) at MSK and [Shuang Wang](https://www.mailman.columbia.edu/people/our-faculty/sw2206) at Columbia.
-
-I also work as a freelance content editor with experience editing books for first and second edition publication as well as editing research papers for grammar and style prior to journal submission.
-
-Finally, I volunteer as the social media manager for [ScienceBasedMedicine.org](https://sciencebasedmedicine.org/). 
-
-Prior to switching careers into statistics, I received a BA in Philosophy and Theater from the [University of Notre Dame](https://www.nd.edu/), then moved to New York and worked in clinical research at [Memorial Sloan Kettering Cancer Center](https://www.mskcc.org/) (MSK) for 3 years before starting my MS in Biostatistics at Columbia. 
-
-###Resume
-My resume is available <a href="Downloads/Hannum Resume 2017May16.pdf">here</a>.
-
-###Contact Information
-Margaret Hannum
-
-Email: m.hannum@columbia.edu
