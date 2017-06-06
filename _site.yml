@@ -1,7 +1,7 @@
 hname: "Margaret Hannum"
 output_dir: "."
 navbar:
-  title: Margaret Hannum
+  title: Margaret L. Hannum
   right:
     - text: "About"
       href: about.html
