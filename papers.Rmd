@@ -1,0 +1,11 @@
+---
+title: "Papers"
+---
+
+### Writing Sample
+
+My final paper for the Spring 2017 Course Linear Regression models is available <a href="Downloads/Hannum P8111 Final Project Submission 2.pdf">here</a>.
+
+### Tutorial on TCGA Assembler
+
+I created a <a href="Downloads/TCGA-methods-draft summary.pdf">written summary</a> and <a href="Downloads/MHannum TCGA Methods1.pdf">presentation</a> on how to use the R Package [TCGA Assembler](http://www.compgenome.org/TCGA-Assembler/) (package written by [Yitan Zhu](https://www.northshore.org/research-institute/investigators/yitan-zhu-phd/) and [Yuan Ji](http://health.bsd.uchicago.edu/yji/) ) for the Spring 2017 course Advanced Statistical and Computational Methods for Genetics and Genomics. 
