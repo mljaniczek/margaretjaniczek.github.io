@@ -4,9 +4,14 @@ title: "Margaret Hannum"
 
 ### MS Candidate in Biostatistics, Columbia University
 
+```{r, echo = FALSE, out.width = "18%"}
+library(knitr)
+knitr::include_graphics("Hannum.jpg")
+```
+
 I received a BA in Philosophy and Theater from the [University of Notre Dame](https://www.nd.edu/) before moving to New York and working in clinical research at [Memorial Sloan Kettering Cancer Center](https://www.mskcc.org/) (MSK) for 3 years before starting my MS in Biostatistics at Columbia. 
 
-This summer I am conducting research on breast cancer subtype classifications using data from The Cancer Genome Atlas with [Ronglai Shen](https://www.mskcc.org/profile/ronglai-shen) at MSK.
+This summer I am conducting research on breast cancer subtype classifications using data from The Cancer Genome Atlas with [Ronglai Shen](https://www.mskcc.org/profile/ronglai-shen) at MSK and [Shuang Wang](https://www.mailman.columbia.edu/people/our-faculty/sw2206) at Columbia.
 
 I also work as a freelance content editor with experience editing books for first and second edition publication as well as editing research papers for grammar and style prior to journal submission.
 
