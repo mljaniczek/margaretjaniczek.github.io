@@ -3,7 +3,7 @@ title: " "
 ---
 
 
-```{r, echo = FALSE, out.width = "75%"}
+```{r, echo = FALSE, out.width = "100%"}
 library(knitr)
 knitr::include_graphics("Mplot01.png")
 
