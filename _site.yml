@@ -11,6 +11,8 @@ navbar:
       href: mailto:<m.hannum@columbia.edu>
     - icon: fa-github fa-lg
       href: http://github.com/margarethannum/
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/margaret-hannum-10140457/
 output:
   html_document:
     theme: cosmo
