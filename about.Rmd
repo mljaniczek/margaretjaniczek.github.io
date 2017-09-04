@@ -10,11 +10,11 @@ library(knitr)
 knitr::include_graphics("Hannum.jpg")
 ```
 
-I am currently pursuing my MS in Biostatistics at [Columbia University Mailman School of Public Health](https://www.mailman.columbia.edu/). As an intern this summer I am conducting research with [Ronglai Shen](https://www.mskcc.org/profile/ronglai-shen) at [Memorial Sloan Kettering Cancer Center](https://www.mskcc.org/) and [Shuang Wang](https://www.mailman.columbia.edu/people/our-faculty/sw2206) in the [Department of Biostatistics at Columbia University](https://www.mailman.columbia.edu/become-student/departments/biostatistics) using multimodal genomic data from [The Cancer Genome Atlas](https://cancergenome.nih.gov/).
+I am currently pursuing my MS in Biostatistics at [Columbia University Mailman School of Public Health](https://www.mailman.columbia.edu/). I am conducting research with [Ronglai Shen](https://www.mskcc.org/profile/ronglai-shen) at [Memorial Sloan Kettering Cancer Center](https://www.mskcc.org/) and [Shuang Wang](https://www.mailman.columbia.edu/people/our-faculty/sw2206) in the [Department of Biostatistics at Columbia University](https://www.mailman.columbia.edu/become-student/departments/biostatistics) using multimodal genomic data from [The Cancer Genome Atlas](https://cancergenome.nih.gov/) to validate and refine breast cancer subtype classifications.
 
-I also work as a content editor with experience editing books for first and second edition publication as well as research manuscripts for grammar and style prior to journal submission. Additionally, I volunteer as the social media manager for [ScienceBasedMedicine.org](https://sciencebasedmedicine.org/) and am an organizer of the [Columbia Biostatistics Computing Club](https://columbia-computing-club.github.io/).
+I also work as a content editor with experience editing books for first and second edition publication as well as research manuscripts for grammar and style prior to journal submission. Additionally, I am an organizer of the [Columbia Biostatistics Computing Club](https://columbia-computing-club.github.io/).
 
-Prior to switching careers into statistics, I received a BA in Philosophy and Theater from the [University of Notre Dame](https://www.nd.edu/), then moved to New York and worked in clinical research at Memorial Sloan Kettering for 3 years before starting graduate school. 
+Prior to switching careers into statistics, I received a BA in Philosophy and Theater from the [University of Notre Dame](https://www.nd.edu/), then moved to New York and worked on the regulatory side of clinical research at Memorial Sloan Kettering Cancer Center for 3 years before starting graduate school. 
 
 ###Resume
 My resume is available <a href="Downloads/Hannum Resume 2017June06.pdf">here</a>.
