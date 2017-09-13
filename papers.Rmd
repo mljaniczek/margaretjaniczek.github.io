@@ -2,10 +2,20 @@
 title: "Papers"
 ---
 
-### Writing Sample
+### Research
 
-My final paper for the Spring 2017 Course Linear Regression models is available <a href="Downloads/Hannum P8111 Final Project Submission 2.pdf">here</a>.
+I am working with [Ronglai Shen](https://www.mskcc.org/profile/ronglai-shen) at [Memorial Sloan Kettering Cancer Center](https://www.mskcc.org/) and [Shuang Wang](https://www.mailman.columbia.edu/people/our-faculty/sw2206) in the [Department of Biostatistics at Columbia University](https://www.mailman.columbia.edu/become-student/departments/biostatistics) on validation and refinement of breast cancer subtype classification by integrating multi-modal genomic data using clustering algorithms on high-dimensional datasets.
+
+This project involved three major stages:
+
+1. Validation of previously identified breast cancer subtypes using an independent sample to integrate copy number and expression data. Assessed goodness of clusters and predicted cluster assignments with the following techniques: similarity matrices, Rand Index, silhouette plots, and in-group proportion methods.
+
+2. Identified Differentially Methylated Regions to reduce dimensionality of methylation data of our sample. First performed cleaning and quality control on methylation data, then identified regions using Gaussian kernel algorithm (went from 480K to 60K features), and finally reduced dimensionality further by identifying methylation probes highly correlated with gene expression (down to 1K) for use in next step of analysis. 
+
+3. Identify novel breast cancer subtypes by integrating copy number, gene expression, and methylation data using Ronglai Shen's integrative clustering algorithm ([iCluster](https://www.bioconductor.org/packages/release/bioc/html/iClusterPlus.html)). We supervised input by selecting copy number and methylation features highly associated with gene expression.
+
+Paper in progress. 
 
 ### Tutorial on TCGA Assembler
 
-I created a <a href="Downloads/TCGA-methods-draft summary.pdf">written summary</a> and <a href="Downloads/MHannum TCGA Methods1.pdf">presentation</a> on how to use the R Package [TCGA Assembler](http://www.compgenome.org/TCGA-Assembler/) (package written by [Yitan Zhu](https://www.northshore.org/research-institute/investigators/yitan-zhu-phd/) and [Yuan Ji](http://health.bsd.uchicago.edu/yji/) ) for the Spring 2017 course Advanced Statistical and Computational Methods for Genetics and Genomics. 
+I created a <a href="Downloads/TCGA-methods-draft summary.pdf">written summary</a> and <a href="Downloads/MHannum TCGA Methods1.pdf">presentation</a> on how to use the R Package [TCGA Assembler](http://www.compgenome.org/TCGA-Assembler/) (package written by [Yitan Zhu](https://www.northshore.org/research-institute/investigators/yitan-zhu-phd/) and [Yuan Ji](http://health.bsd.uchicago.edu/yji/) ) for the Spring 2017 course Advanced Statistical and Computational Methods for Genetics and Genomics. The presentation describes how to download and utilize the package TCGA Assembler to download and assemble data from The Cancer Genome Atlas prior to analysis. 
