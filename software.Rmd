@@ -8,7 +8,7 @@ I created a Shiny app to look at proportions of genotypes for an X-linked diseas
 
 The app can be found [here](https://margarethannum.shinyapps.io/xlinked_trait_generation_simulator/)! 
 
-```{r, echo = FALSE, out.width = "100%"}
+```{r, echo = FALSE, out.width = "80%"}
 library(knitr)
 knitr::include_graphics("isihara.png")
 ```

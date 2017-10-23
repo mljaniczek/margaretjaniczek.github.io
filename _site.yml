@@ -9,6 +9,8 @@ navbar:
       href: software.html
     - text: Research
       href: research.html
+    - text: Presentations
+      href: presentations.html
     - icon: fa-envelope fa-lg
       href: mailto:<m.hannum@columbia.edu>
     - icon: fa-github fa-lg
