@@ -7,7 +7,7 @@ navbar:
       href: about.html
     - text: Software
       href: software.html
-    - text: “Research”
+    - text: Research
       href: research.html
     - icon: fa-envelope fa-lg
       href: mailto:<m.hannum@columbia.edu>

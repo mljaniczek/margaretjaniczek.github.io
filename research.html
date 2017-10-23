@@ -11,7 +11,7 @@
 
 
 
-<title>About</title>
+<title>Research</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -186,7 +186,7 @@ $(document).ready(function () {
   <a href="software.html">Software</a>
 </li>
 <li>
-  <a href="research.html">Research</a>
+  <a href="research.html">“Research”</a>
 </li>
 <li>
   <a href="mailto:&lt;m.hannum@columbia.edu&gt;">
@@ -215,23 +215,29 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">About</h1>
+<h1 class="title toc-ignore">Research</h1>
 
 </div>
 
 
-<p><img src="Hannum.jpg" width="18%" /></p>
-<p>I am currently pursuing my MS in Biostatistics at <a href="https://www.mailman.columbia.edu/">Columbia University Mailman School of Public Health</a>. I am conducting research with <a href="https://www.mskcc.org/profile/ronglai-shen">Ronglai Shen</a> at <a href="https://www.mskcc.org/">Memorial Sloan Kettering Cancer Center</a> and <a href="https://www.mailman.columbia.edu/people/our-faculty/sw2206">Shuang Wang</a> in the <a href="https://www.mailman.columbia.edu/become-student/departments/biostatistics">Department of Biostatistics at Columbia University</a> using multimodal genomic data from <a href="https://cancergenome.nih.gov/">The Cancer Genome Atlas</a> to validate and refine breast cancer subtype classifications. I am also working on a research project to examine clustering patterns of nonsense mutations across multiple cancer tumor types through the <a href="https://www.dbmi.columbia.edu/">Department of Biomedical Informatics</a> at Columbia (see research page for more details).</p>
-<p>Additionally, I am an organizer of the <a href="https://columbia-computing-club.github.io/">Columbia Biostatistics Computing Club</a>. I also have experience editing books for first and second edition publication as well as research manuscripts for grammar and style prior to journal submission.</p>
-<p>Prior to switching careers into statistics, I received a BA in Philosophy and Theater from the <a href="https://www.nd.edu/">University of Notre Dame</a>, then moved to New York and worked on the regulatory side of clinical research at Memorial Sloan Kettering Cancer Center for 3 years before starting graduate school.</p>
-<div id="resume" class="section level3">
-<h3>Resume</h3>
-<p>My resume is available <a href="Downloads/Hannum Resume 2017June06.pdf">here</a>.</p>
+<div id="validation-and-refinement-of-breast-cancer-subtype-classification" class="section level3">
+<h3>Validation and Refinement of Breast Cancer Subtype Classification</h3>
+<p>I am working with <a href="https://www.mskcc.org/profile/ronglai-shen">Ronglai Shen</a> at <a href="https://www.mskcc.org/">Memorial Sloan Kettering Cancer Center</a> and <a href="https://www.mailman.columbia.edu/people/our-faculty/sw2206">Shuang Wang</a> in the <a href="https://www.mailman.columbia.edu/become-student/departments/biostatistics">Department of Biostatistics at Columbia University</a> on validation and refinement of breast cancer subtype classification by integrating multi-modal genomic data using clustering algorithms on high-dimensional datasets.</p>
+<p>This project involved three major stages:</p>
+<ol style="list-style-type: decimal">
+<li><p>Validation of previously identified breast cancer subtypes using an independent sample to integrate copy number and expression data.</p></li>
+<li><p>Identified Differentially Methylated Regions to reduce dimensionality of methylation data of our sample.</p></li>
+<li><p>Identify novel breast cancer subtypes by integrating copy number, gene expression, and methylation data using Ronglai Shen’s integrative clustering algorithm (<a href="https://www.bioconductor.org/packages/release/bioc/html/iClusterPlus.html">iCluster</a>). We supervised input by selecting copy number and methylation features highly associated with gene expression.</p></li>
+</ol>
+<p>Paper in progress.</p>
 </div>
-<div id="contact-information" class="section level3">
-<h3>Contact Information</h3>
-<p>Margaret Hannum</p>
-<p>Email: <a href="mailto:m.hannum@columbia.edu">m.hannum@columbia.edu</a></p>
+<div id="clustering-of-nonsense-mutations-in-cancer" class="section level3">
+<h3>Clustering of Nonsense Mutations in Cancer</h3>
+<p>I am working with a small group of masters and doctoral students on a project to examine if there is a clustering pattern of nonsense mutations in somatic mutation data after taking background mutation rate into account (e.g. mutations that occur through natural processes such as aging or UV exposure). We are using a high-dimensional dataset comprising 41 cancer tumor types from over 11,000 samples. This project is under the guidance of <a href="https://www.dbmi.columbia.edu/people/yufeng-shen/">Yufeng Shen</a> (<a href="https://systemsbiology.columbia.edu/">Department of Systems Biology</a>, Columbia University) for the course BINF G4017 Deep Sequencing in the <a href="https://www.dbmi.columbia.edu/">Department of Biomedical Informatics</a>.</p>
+</div>
+<div id="tutorial-on-tcga-assembler" class="section level3">
+<h3>Tutorial on TCGA Assembler</h3>
+<p>I created a <a href="Downloads/TCGA-methods-draft summary.pdf">written summary</a> and <a href="Downloads/MHannum TCGA Methods1.pdf">presentation</a> on how to use the R Package <a href="http://www.compgenome.org/TCGA-Assembler/">TCGA Assembler</a> (package written by <a href="https://www.northshore.org/research-institute/investigators/yitan-zhu-phd/">Yitan Zhu</a> and <a href="http://health.bsd.uchicago.edu/yji/">Yuan Ji</a> ) for the Spring 2017 course Advanced Statistical and Computational Methods for Genetics and Genomics. The presentation describes how to download and utilize the package TCGA Assembler to download and assemble data from The Cancer Genome Atlas prior to analysis.</p>
 </div>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
