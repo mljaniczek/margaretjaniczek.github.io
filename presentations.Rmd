@@ -6,7 +6,7 @@ title: "Presentations"
 Presentation: 10/9/2017,
 [Columbia Biostatistics Computing Club](https://columbia-computing-club.github.io/) Seminar
 
-I organized and led an interactive data manipulation tutorial with some useful regular-expression pattern matching base functions in R such as gsub, grep, strsplit, substr and others. I provided everyone with R code and three example data sets (different types of genomic data), and the goal was be for everyone to practice molding them into compatible matrices for use in further analysis. 
+I led an interactive data manipulation tutorial with some useful regular-expression pattern matching base functions in R such as gsub, grep, strsplit, substr and others. I provided attendees with R code and three example data sets (different types of genomic data), and the goal was for everyone to practice molding them into compatible matrices for use in further analysis. 
 
 My code and datasets from the presentation can be found on the [CBCC resources site](https://columbia-computing-club.github.io/resources/). 
 
@@ -18,4 +18,4 @@ I presented an overview of my practicum research project at a departmental meeti
 
 #### Tutorial on TCGA Assembler
 
-I created a <a href="Downloads/TCGA-methods-draft summary.pdf">written summary</a> and <a href="Downloads/MHannum TCGA Methods1.pdf">presentation</a> on how to use the R Package [TCGA Assembler](http://www.compgenome.org/TCGA-Assembler/) (package written by [Yitan Zhu](https://www.northshore.org/research-institute/investigators/yitan-zhu-phd/) and [Yuan Ji](http://health.bsd.uchicago.edu/yji/) ) for the Spring 2017 course Advanced Statistical and Computational Methods for Genetics and Genomics. The presentation describes how to download and utilize the package TCGA Assembler to download and assemble data from The Cancer Genome Atlas prior to analysis. 
+I created a <a href="Downloads/TCGA-methods-draft summary.pdf">written summary</a> and <a href="Downloads/MHannum TCGA Methods1.pdf">presentation</a> on how to use the R Package [TCGA Assembler](http://www.compgenome.org/TCGA-Assembler/) (package written by [Yitan Zhu](https://www.northshore.org/research-institute/investigators/yitan-zhu-phd/) and [Yuan Ji](http://health.bsd.uchicago.edu/yji/) ) for the Spring 2017 course Advanced Statistical and Computational Methods for Genetics and Genomics. The presentation describes how to use the package TCGA Assembler to download and assemble data from The Cancer Genome Atlas prior to analysis. 

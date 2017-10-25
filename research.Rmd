@@ -10,9 +10,9 @@ This project involved three major stages:
 
 1. Validation of previously identified breast cancer subtypes using an independent sample to integrate copy number and expression data. 
 
-2. Identified Differentially Methylated Regions to reduce dimensionality of methylation data of our sample. 
+2. Identification of Differentially Methylated Regions to reduce dimensionality of methylation data in our sample. 
 
-3. Identify novel breast cancer subtypes by integrating copy number, gene expression, and methylation data using Ronglai Shen's integrative clustering algorithm ([iCluster](https://www.bioconductor.org/packages/release/bioc/html/iClusterPlus.html)). We supervised input by selecting copy number and methylation features highly associated with gene expression.
+3. Identification of novel breast cancer subtypes by integrating copy number, gene expression, and methylation data using Ronglai Shen's integrative clustering algorithm ([iCluster](https://www.bioconductor.org/packages/release/bioc/html/iClusterPlus.html)). We supervised input by selecting copy number and methylation features highly associated with gene expression.
 
 Paper in progress. 
 
