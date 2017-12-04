@@ -20,8 +20,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
@@ -31,10 +31,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlightingOnLoad(); }, 0);
+  }
 }
 </script>
 
@@ -228,7 +230,7 @@ $(document).ready(function () {
 <p>Prior to switching careers into statistics, I received a BA in Philosophy and Theater from the <a href="https://www.nd.edu/">University of Notre Dame</a>, then moved to New York and worked on the regulatory side of clinical research at Memorial Sloan Kettering Cancer Center for 3 years before starting graduate school.</p>
 <div id="resume" class="section level3">
 <h3>Resume</h3>
-<p>My resume is available <a href="Downloads/Hannum Resume 2017June06.pdf">here</a>.</p>
+<p>My resume is available <a href="Downloads/Hannum Resume.pdf">here</a>.</p>
 </div>
 <div id="contact-information" class="section level3">
 <h3>Contact Information</h3>
