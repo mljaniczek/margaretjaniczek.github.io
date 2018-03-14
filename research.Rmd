@@ -2,6 +2,15 @@
 title: "Research"
 ---
 
+### Clustering of Nonsense Mutations in Cancer
+I am working with a small group of masters and doctoral students on a project to examine if there is a clustering pattern of nonsense mutations in somatic mutation data after taking background mutation rate into account (e.g. mutations that occur through natural processes such as aging or UV exposure). We are using clustering algorithms on a high-dimensional dataset comprising 41 cancer tumor types from over 11,000 samples. This project is under the guidance of [Yufeng Shen](https://www.dbmi.columbia.edu/people/yufeng-shen/) ([Department of Systems Biology](https://systemsbiology.columbia.edu/), Columbia University) for the course BINF G4017 Deep Sequencing in the [Department of Biomedical Informatics](https://www.dbmi.columbia.edu/). 
+
+```{r, echo = FALSE, out.width = "40%"}
+library(knitr)
+knitr::include_graphics("algorithm.png")
+```
+
+
 ### Validation and Refinement of Breast Cancer Subtype Classification
 
 I am working with [Ronglai Shen](https://www.mskcc.org/profile/ronglai-shen) at [Memorial Sloan Kettering Cancer Center](https://www.mskcc.org/) and [Shuang Wang](https://www.mailman.columbia.edu/people/our-faculty/sw2206) in the [Department of Biostatistics at Columbia University](https://www.mailman.columbia.edu/become-student/departments/biostatistics) on validation and refinement of breast cancer subtype classification by integrating multi-modal genomic data using clustering algorithms on high-dimensional datasets.
@@ -16,5 +25,4 @@ This project involved three major stages:
 
 Paper in progress. 
 
-### Clustering of Nonsense Mutations in Cancer
-I am working with a small group of masters and doctoral students on a project to examine if there is a clustering pattern of nonsense mutations in somatic mutation data after taking background mutation rate into account (e.g. mutations that occur through natural processes such as aging or UV exposure). We are using clustering algorithms on a high-dimensional dataset comprising 41 cancer tumor types from over 11,000 samples. This project is under the guidance of [Yufeng Shen](https://www.dbmi.columbia.edu/people/yufeng-shen/) ([Department of Systems Biology](https://systemsbiology.columbia.edu/), Columbia University) for the course BINF G4017 Deep Sequencing in the [Department of Biomedical Informatics](https://www.dbmi.columbia.edu/). 
+
