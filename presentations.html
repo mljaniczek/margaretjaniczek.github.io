@@ -20,8 +20,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
@@ -31,10 +31,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -223,20 +225,24 @@ $(document).ready(function () {
 </div>
 
 
-<div id="using-regular-expressions-to-manipulate-multiple-datatypes-in-r" class="section level4">
-<h4>Using Regular Expressions to manipulate multiple datatypes in R</h4>
+<div id="using-clustering-methods-on-high-dimensional-genomic-data-in-cancer-two-projects" class="section level4">
+<h4>Using Clustering Methods on High-Dimensional Genomic Data in Cancer: Two Projects</h4>
+<p>Presentation: 2/12/2018, Memorial Sloan Kettering Department of Epidemiology and Biostatistics</p>
+<p><i> I was invited to give an hour-long seminar on my recent research which utilized various clustering algorithms to reduce dimensionality of genomic data. Slides from my presentation can be found <a href="Downloads/clustering_presentation.pdf">here</a>. </i></p>
+</div>
+<div id="split-match-replace-regular-expressions-to-manipulate-multiple-datatypes-in-r" class="section level4">
+<h4>Split, Match, Replace: Regular Expressions to manipulate multiple datatypes in R</h4>
 <p>Presentation: 10/9/2017, <a href="https://columbia-computing-club.github.io/">Columbia Biostatistics Computing Club</a> Seminar</p>
-<p>I led an interactive data manipulation tutorial with some useful regular-expression pattern matching base functions in R such as gsub, grep, strsplit, substr and others. I provided attendees with R code and three example data sets (different types of genomic data), and the goal was for everyone to practice molding them into compatible matrices for use in further analysis.</p>
-<p>My code and datasets from the presentation can be found on the <a href="https://columbia-computing-club.github.io/resources/">CBCC resources site</a>.</p>
+<p><i> I led an interactive data manipulation tutorial with some useful regular-expression pattern matching base functions in R such as gsub, grep, strsplit, substr and others. I provided attendees with R code and three example data sets (different types of genomic data), and the goal was for everyone to practice molding them into compatible matrices for use in further analysis. My code and datasets from the presentation can be found on the <a href="https://columbia-computing-club.github.io/resources/">CBCC resources site</a>. </i></p>
 </div>
 <div id="overview-of-breast-cancer-subtype-classification-research" class="section level4">
 <h4>Overview of Breast Cancer Subtype Classification Research</h4>
 <p>Presentation: July 26, 2017, Memorial Sloan Kettering Department of Epidemiology and Biostatistics</p>
-<p>I presented an overview of my practicum research project at a departmental meeting. Please see <a href="Downloads/Project Summary Hannum.pdf">here</a> for the slides.</p>
+<p><i> I presented an overview of my practicum research project at a departmental meeting. Please see <a href="Downloads/Project Summary Hannum.pdf">here</a> for the slides. </i></p>
 </div>
 <div id="tutorial-on-tcga-assembler" class="section level4">
 <h4>Tutorial on TCGA Assembler</h4>
-<p>I created a <a href="Downloads/TCGA-methods-draft summary.pdf">written summary</a> and <a href="Downloads/MHannum TCGA Methods1.pdf">presentation</a> on how to use the R Package <a href="http://www.compgenome.org/TCGA-Assembler/">TCGA Assembler</a> (package written by <a href="https://www.northshore.org/research-institute/investigators/yitan-zhu-phd/">Yitan Zhu</a> and <a href="http://health.bsd.uchicago.edu/yji/">Yuan Ji</a> ) for the Spring 2017 course Advanced Statistical and Computational Methods for Genetics and Genomics. The presentation describes how to use the package TCGA Assembler to download and assemble data from The Cancer Genome Atlas prior to analysis.</p>
+<p><i> I created a <a href="Downloads/TCGA-methods-draft summary.pdf">written summary</a> and <a href="Downloads/MHannum TCGA Methods1.pdf">presentation</a> on how to use the R Package <a href="http://www.compgenome.org/TCGA-Assembler/">TCGA Assembler</a> (package written by <a href="https://www.northshore.org/research-institute/investigators/yitan-zhu-phd/">Yitan Zhu</a> and <a href="http://health.bsd.uchicago.edu/yji/">Yuan Ji</a> ) for the Spring 2017 course Advanced Statistical and Computational Methods for Genetics and Genomics. The presentation describes how to use the package TCGA Assembler to download and assemble data from The Cancer Genome Atlas prior to analysis.</i></p>
 </div>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
