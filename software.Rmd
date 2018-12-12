@@ -2,8 +2,9 @@
 title: "Software"
 ---
 ### Github Packages
-####`polygenicPTSD`
-I developed the `R` package `polygenicPTSD` for the [Psychiatric Genomics Consortium PTSD workgroup](https://www.med.unc.edu/pgc/pgc-workgroups) to use for a multi-site analysis pipeline. The package was developed to ensure replicability, consistency, and simplicity in analysis across sites. Instructions for download and use available on [Github](https://github.com/margarethannum/PolygenicPTSD). 
+####`biostatR`
+I contribute to the `biostatR` package, coming soon. 
+
 
 ### Shiny Apps
 #### X-Linked Disease Trait Generation Simulator
