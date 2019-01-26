@@ -5,12 +5,12 @@ title: "About"
 
 
 
-```{r, echo = FALSE, out.width = "18%"}
+```{r, echo = FALSE, out.width = "30%"}
 library(knitr)
-knitr::include_graphics("Hannum.jpg")
+knitr::include_graphics("Hannum2.jpg")
 ```
 
-I am currently work as an Assistant Research Biostatistician at [Memorial Sloan Kettering Cancer Center Department of Epidemiology and Biostatistics](https://www.mskcc.org/departments/epidemiology-biostatistics). I recently completed my MS in Biostatistics at [Columbia University Mailman School of Public Health](https://www.mailman.columbia.edu/). 
+I currently work as an Assistant Research Biostatistician at [Memorial Sloan Kettering Cancer Center Department of Epidemiology and Biostatistics](https://www.mskcc.org/departments/epidemiology-biostatistics). I recently completed my MS in Biostatistics at [Columbia University Mailman School of Public Health](https://www.mailman.columbia.edu/). 
 
 I work with [Ronglai Shen](https://www.mskcc.org/profile/ronglai-shen) at [Memorial Sloan Kettering Cancer Center](https://www.mskcc.org/) using multimodal genomic data from [The Cancer Genome Atlas](https://cancergenome.nih.gov/) to validate and refine cancer subtype classifications. I also collaborate with [Venkat Seshan](https://www.mskcc.org/profile/venkatraman-seshan), providing statistical analysis for [Lymphoma SPORE](https://www.mskcc.org/research-programs/specialized-program-research-excellence-spore-lymphoma) translational research projects. My other main area of interest is working on an algorithm to detect clustering patterns of nonsense mutations across multiple cancer tumor types through the [Department of Biomedical Informatics](https://www.dbmi.columbia.edu/) at Columbia (see research page for more details). 
 

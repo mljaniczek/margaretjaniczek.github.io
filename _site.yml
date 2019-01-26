@@ -12,11 +12,13 @@ navbar:
     - text: Presentations
       href: presentations.html
     - icon: fa-envelope fa-lg
-      href: mailto:<m.hannum@columbia.edu>
+      href: mailto:<hannumm@mskcc.org>
     - icon: fa-github fa-lg
       href: http://github.com/margarethannum/
     - icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/margaret-hannum-10140457/
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/margaret_hannum
 output:
   html_document:
     theme: paper

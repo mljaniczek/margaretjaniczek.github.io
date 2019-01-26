@@ -2,8 +2,8 @@
 title: "Software"
 ---
 ### Github Packages
-####`biostatR`
-I contribute to the `biostatR` package, coming soon. 
+####`clintable`
+I contribute to the [clintable](http://www.danieldsjoberg.com/clintable/index.html) package, currently in development.  
 
 
 ### Shiny Apps
