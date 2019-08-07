@@ -2,8 +2,11 @@
 title: "Software"
 ---
 ### Github Packages
-####`clintable`
-I contribute to the [clintable](http://www.danieldsjoberg.com/clintable/index.html) package, currently in development.  
+#### `gtsummary`
+I contribute to the [gtsummary](http://www.danieldsjoberg.com/gtsummary/) package, currently on CRAN.
+
+#### `Nebula`
+I contribute to the [Nebula](https://github.com/changgee/Nebula) package, also in development.
 
 
 ### Shiny Apps

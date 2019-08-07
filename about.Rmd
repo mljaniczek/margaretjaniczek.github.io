@@ -10,11 +10,10 @@ library(knitr)
 knitr::include_graphics("Hannum2.jpg")
 ```
 
-I am an Assistant Research Biostatistician at [Memorial Sloan Kettering Cancer Center Department of Epidemiology and Biostatistics](https://www.mskcc.org/departments/epidemiology-biostatistics). I recently completed my MS in Biostatistics at [Columbia University Mailman School of Public Health](https://www.mailman.columbia.edu/). 
+I am an Assistant Research Biostatistician at [Memorial Sloan Kettering Cancer Center Department of Epidemiology and Biostatistics](https://www.mskcc.org/departments/epidemiology-biostatistics). I completed my MS in Biostatistics at [Columbia University Mailman School of Public Health](https://www.mailman.columbia.edu/) in 2018. 
 
-Prior to switching careers into statistics, I received a BA in Philosophy and Theater from the [University of Notre Dame](https://www.nd.edu/), then moved to New York and worked on the regulatory side of clinical research at Memorial Sloan Kettering Cancer Center for 3 years before starting graduate school. I also enjoy writing and have editorial experience (grammar and style on research manuscripts prior to submission and on whole books prior to publication). 
 
-###Contact Information
+### Contact Information
 Margaret Hannum
 
 Email: hannumm@mskcc.org
