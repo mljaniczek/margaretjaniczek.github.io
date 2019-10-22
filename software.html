@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -85,7 +86,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -246,18 +246,6 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
@@ -335,15 +323,22 @@ $(document).ready(function () {
 </div>
 
 
-<div id="github-packages" class="section level3">
-<h3>Github Packages</h3>
+<div id="cran-packages" class="section level3">
+<h3>CRAN Packages</h3>
 <div id="gtsummary" class="section level4">
 <h4><code>gtsummary</code></h4>
-<p>I contribute to the <a href="http://www.danieldsjoberg.com/gtsummary/">gtsummary</a> package, currently on CRAN.</p>
+<p>I contribute to the <a href="http://www.danieldsjoberg.com/gtsummary/">gtsummary</a> package.</p>
 </div>
+</div>
+<div id="github-packages" class="section level3">
+<h3>Github Packages</h3>
 <div id="nebula" class="section level4">
-<h4><code>Nebula</code></h4>
-<p>I contribute to the <a href="https://github.com/changgee/Nebula">Nebula</a> package, also in development.</p>
+<h4><code>nebula</code></h4>
+<p>I maintain the <a href="https://nebula-group.github.io/nebula/index.html">nebula</a> package, which implements network-based latent-Dirichlet subtype analysis.</p>
+</div>
+<div id="riskybiz" class="section level4">
+<h4><code>riskybiz</code></h4>
+<p>I am the author and maintainer of the <a href="https://margarethannum.github.io/riskybiz/">riskybiz</a> package which contains wrapper and helper functions to get tidy competing risks regression model results from the {cmprsk} package.</p>
 </div>
 </div>
 <div id="shiny-apps" class="section level3">
@@ -396,6 +391,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

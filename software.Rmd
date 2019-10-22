@@ -1,12 +1,16 @@
 ---
 title: "Software"
 ---
-### Github Packages
+### CRAN Packages
 #### `gtsummary`
-I contribute to the [gtsummary](http://www.danieldsjoberg.com/gtsummary/) package, currently on CRAN.
+I contribute to the [gtsummary](http://www.danieldsjoberg.com/gtsummary/) package.
 
-#### `Nebula`
-I contribute to the [Nebula](https://github.com/changgee/Nebula) package, also in development.
+### Github Packages
+#### `nebula`
+I maintain the [nebula](https://nebula-group.github.io/nebula/index.html) package, which implements network-based latent-Dirichlet subtype analysis. 
+
+#### `riskybiz`
+I am the author and maintainer of the [riskybiz](https://margarethannum.github.io/riskybiz/) package which contains wrapper and helper functions to get tidy competing risks regression model results from the {cmprsk} package.
 
 
 ### Shiny Apps
