@@ -10,7 +10,7 @@ library(knitr)
 knitr::include_graphics("Hannum2.jpg")
 ```
 
-I am an Assistant Research Biostatistician at [Memorial Sloan Kettering Cancer Center Department of Epidemiology and Biostatistics](https://www.mskcc.org/departments/epidemiology-biostatistics). I completed my MS in Biostatistics at [Columbia University Mailman School of Public Health](https://www.mailman.columbia.edu/) in 2018. 
+I am a Research Biostatistician at [Memorial Sloan Kettering Cancer Center Department of Epidemiology and Biostatistics](https://www.mskcc.org/departments/epidemiology-biostatistics). I completed my MS in Biostatistics at [Columbia University Mailman School of Public Health](https://www.mailman.columbia.edu/) in 2018. 
 
 
 ### Contact Information
