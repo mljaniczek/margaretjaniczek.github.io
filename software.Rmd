@@ -3,7 +3,7 @@ title: "Software"
 ---
 ### CRAN Packages
 #### `gtsummary`
-I am a contributing other of the [gtsummary](http://www.danieldsjoberg.com/gtsummary/) package.
+I am an author of the [gtsummary](http://www.danieldsjoberg.com/gtsummary/) package.
 
 ### Github Packages
 #### `nebula`
