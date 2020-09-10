@@ -3,7 +3,9 @@ title: "Software"
 ---
 ### CRAN Packages
 #### `gtsummary`
-I am an author of the [gtsummary](http://www.danieldsjoberg.com/gtsummary/) package.
+I am an author of the [gtsummary](http://www.danieldsjoberg.com/gtsummary/) package, which you can use to create reproducible, publication-ready analytical tables in R. 
+
+The gtsummary package was recently featured on the [RStudio Education blog](https://education.rstudio.com/blog/2020/07/gtsummary/), and you can learn more from my RLadies NYC talk [here](http://margarethannum.com/gtsummary-presentation-rladies/#1). 
 
 ### Github Packages
 #### `nebula`

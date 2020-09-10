@@ -3,20 +3,19 @@ output_dir: "."
 navbar:
   title: Margaret L. Hannum
   right:
-    - text: "About"
-      href: about.html
-    - text: Software
-      href: software.html
     - text: Research
       href: research.html
+    - text: Software
+      href: software.html
     - icon: fa-envelope fa-lg
       href: mailto:<hannumm@mskcc.org>
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/margaret_hannum
     - icon: fa-github fa-lg
       href: http://github.com/margarethannum/
     - icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/margaret-hannum-10140457/
-    - icon: fa-twitter fa-lg
-      href: https://twitter.com/margaret_hannum
+
 output:
   html_document:
     theme: paper
