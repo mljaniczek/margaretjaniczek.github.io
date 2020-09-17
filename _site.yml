@@ -14,7 +14,7 @@ navbar:
     - icon: fa-github fa-lg
       href: http://github.com/margarethannum/
     - icon: fa-linkedin fa-lg
-      href: https://www.linkedin.com/in/margaret-hannum-10140457/
+      href: https://www.linkedin.com/in/margarethannum/
 
 output:
   html_document:
