@@ -1,20 +1,20 @@
-hname: "Margaret Hannum"
+hname: "Margaret Janiczek"
 output_dir: "."
 navbar:
-  title: Margaret L. Hannum
+  title: Margaret L. Janiczek
   right:
     - text: Research
       href: research.html
     - text: Software
       href: software.html
     - icon: fa-envelope fa-lg
-      href: mailto:<hannumm@mskcc.org>
+      href: mailto:<mjancizek@umass.edu>
     - icon: fa-twitter fa-lg
       href: https://twitter.com/margaret_hannum
     - icon: fa-github fa-lg
-      href: http://github.com/margarethannum/
+      href: http://github.com/mljaniczek/
     - icon: fa-linkedin fa-lg
-      href: https://www.linkedin.com/in/margarethannum/
+      href: https://www.linkedin.com/in/margaretjaniczek/
 
 output:
   html_document:

@@ -3,7 +3,7 @@ title: "Software"
 ---
 ### CRAN Packages
 #### `gtsummary`
-I am an author of the [gtsummary](http://www.danieldsjoberg.com/gtsummary/) package, which you can use to create reproducible, publication-ready analytical tables in R. 
+I am a contributor to the [gtsummary](http://www.danieldsjoberg.com/gtsummary/) package, which you can use to create reproducible, publication-ready analytical tables in R. 
 
 The gtsummary package was recently featured on the [RStudio Education blog](https://education.rstudio.com/blog/2020/07/gtsummary/), and you can learn more from my RLadies NYC talk [here](http://margarethannum.com/gtsummary-presentation-rladies/#1). 
 
@@ -20,7 +20,7 @@ I am the author and maintainer of the [riskybiz](https://margarethannum.github.i
 
 I created a Shiny app to look at proportions of genotypes for an X-linked disease trait (such as color-blindness). Explore the app to see how many generations it takes for the population to reach equilibrium (it's surprisingly not many!), and how the equilibrium proportions change based on the initial population. 
 
-The app can be found [here](https://margarethannum.shinyapps.io/xlinked_trait_generation_simulator/)! 
+The app can be found [here](https://margaretjaniczek.shinyapps.io/xlinked_trait_generation_simulator/)! 
 
 ```{r, echo = FALSE, out.width = "80%"}
 library(knitr)
