@@ -5,14 +5,14 @@ title: "Software"
 #### `gtsummary`
 I am a contributor to the [gtsummary](http://www.danieldsjoberg.com/gtsummary/) package, which you can use to create reproducible, publication-ready analytical tables in R. 
 
-The gtsummary package was recently featured on the [RStudio Education blog](https://education.rstudio.com/blog/2020/07/gtsummary/), and you can learn more from my RLadies NYC talk [here](http://margarethannum.com/gtsummary-presentation-rladies/#1). 
+The gtsummary package was recently featured on the [RStudio Education blog](https://education.rstudio.com/blog/2020/07/gtsummary/), and you can learn more from my RLadies NYC talk [here](http://mljaniczek.github.io/gtsummary-presentation-rladies/#1). 
 
 ### Github Packages
 #### `nebula`
 I maintain the [nebula](https://nebula-group.github.io/nebula/index.html) package, which implements network-based latent-Dirichlet subtype analysis. 
 
 #### `riskybiz`
-I am the author and maintainer of the [riskybiz](https://margarethannum.github.io/riskybiz/) package which contains wrapper and helper functions to get competing risks regression model results from the {cmprsk} package.
+I am the author and maintainer of the [riskybiz](https://mljaniczek.github.io/riskybiz/) package which contains wrapper and helper functions to get competing risks regression model results from the {cmprsk} package.
 
 
 ### Shiny Apps
@@ -20,7 +20,7 @@ I am the author and maintainer of the [riskybiz](https://margarethannum.github.i
 
 I created a Shiny app to look at proportions of genotypes for an X-linked disease trait (such as color-blindness). Explore the app to see how many generations it takes for the population to reach equilibrium (it's surprisingly not many!), and how the equilibrium proportions change based on the initial population. 
 
-The app can be found [here](https://margaretjaniczek.shinyapps.io/xlinked_trait_generation_simulator/)! 
+The app can be found [here](https://mljaniczek.shinyapps.io/xlinked_trait_generation_simulator/)! 
 
 ```{r, echo = FALSE, out.width = "80%"}
 library(knitr)
