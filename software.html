@@ -13,7 +13,7 @@
 
 <title>Software</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
@@ -62,6 +62,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -82,6 +83,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -139,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -234,7 +242,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -297,29 +305,59 @@ $(document).ready(function () {
 <h3>CRAN Packages</h3>
 <div id="gtsummary" class="section level4">
 <h4><code>gtsummary</code></h4>
-<p>I am a contributor to the <a href="http://www.danieldsjoberg.com/gtsummary/">gtsummary</a> package, which you can use to create reproducible, publication-ready analytical tables in R.</p>
-<p>The gtsummary package was recently featured on the <a href="https://education.rstudio.com/blog/2020/07/gtsummary/">RStudio Education blog</a>, and you can learn more from my RLadies NYC talk <a href="http://mljaniczek.github.io/gtsummary-presentation-rladies/#1">here</a>.</p>
+<p>I am a contributor to the <a
+href="http://www.danieldsjoberg.com/gtsummary/">gtsummary</a> package,
+which you can use to create reproducible, publication-ready analytical
+tables in R.</p>
+<p>The gtsummary package was recently featured on the <a
+href="https://education.rstudio.com/blog/2020/07/gtsummary/">RStudio
+Education blog</a>, and you can learn more from my RLadies NYC talk <a
+href="http://mljaniczek.github.io/gtsummary-presentation-rladies/#1">here</a>.</p>
 </div>
 </div>
 <div id="github-packages" class="section level3">
 <h3>Github Packages</h3>
+<div id="spikeyglass" class="section level4">
+<h4><code>spikeyglass</code></h4>
+<p>I collaborated with Dr. Richard Li from UC Santa Cruz to convert his
+method “Bayesian Joint Spike-and-slab Graphical Lasso” (SSJGL) into an
+easy-to-use R package called <a
+href="https://mljaniczek.github.io/spikeyglass/"><code>spikeyglass</code></a>.
+See <a href="https://mljaniczek.github.io/ssjgl-tutorial/">here</a> for
+an applied tutorial using this method on real-world metabolomics
+data.</p>
+</div>
 <div id="nebula" class="section level4">
 <h4><code>nebula</code></h4>
-<p>I maintain the <a href="https://nebula-group.github.io/nebula/index.html">nebula</a> package, which implements network-based latent-Dirichlet subtype analysis.</p>
+<p>I maintain the <a
+href="https://nebula-group.github.io/nebula/index.html">nebula</a>
+package, which implements network-based latent-Dirichlet subtype
+analysis.</p>
 </div>
 <div id="riskybiz" class="section level4">
 <h4><code>riskybiz</code></h4>
-<p>I am the author and maintainer of the <a href="https://mljaniczek.github.io/riskybiz/">riskybiz</a> package which contains wrapper and helper functions to get competing risks regression model results from the {cmprsk} package.</p>
+<p>I am the author and maintainer of the <a
+href="https://mljaniczek.github.io/riskybiz/">riskybiz</a> package which
+contains wrapper and helper functions to get competing risks regression
+model results from the {cmprsk} package.</p>
 </div>
 </div>
 <div id="shiny-apps" class="section level3">
 <h3>Shiny Apps</h3>
-<div id="x-linked-disease-trait-generation-simulator" class="section level4">
+<div id="x-linked-disease-trait-generation-simulator"
+class="section level4">
 <h4>X-Linked Disease Trait Generation Simulator</h4>
-<p>I created a Shiny app to look at proportions of genotypes for an X-linked disease trait (such as color-blindness). Explore the app to see how many generations it takes for the population to reach equilibrium (it’s surprisingly not many!), and how the equilibrium proportions change based on the initial population.</p>
-<p>The app can be found <a href="https://mljaniczek.shinyapps.io/xlinked_trait_generation_simulator/">here</a>!</p>
+<p>I created a Shiny app to look at proportions of genotypes for an
+X-linked disease trait (such as color-blindness). Explore the app to see
+how many generations it takes for the population to reach equilibrium
+(it’s surprisingly not many!), and how the equilibrium proportions
+change based on the initial population.</p>
+<p>The app can be found <a
+href="https://mljaniczek.shinyapps.io/xlinked_trait_generation_simulator/">here</a>!</p>
 <p><img src="isihara.png" width="80%" /></p>
-<p>Image created using <a href="https://franciscouzo.github.io/ishihara/">Francisco Uzo’s Isihara Plate Generator</a></p>
+<p>Image created using <a
+href="https://franciscouzo.github.io/ishihara/">Francisco Uzo’s Isihara
+Plate Generator</a></p>
 </div>
 </div>
 

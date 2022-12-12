@@ -2,12 +2,17 @@
 title: "Software"
 ---
 ### CRAN Packages
+
 #### `gtsummary`
 I am a contributor to the [gtsummary](http://www.danieldsjoberg.com/gtsummary/) package, which you can use to create reproducible, publication-ready analytical tables in R. 
 
 The gtsummary package was recently featured on the [RStudio Education blog](https://education.rstudio.com/blog/2020/07/gtsummary/), and you can learn more from my RLadies NYC talk [here](http://mljaniczek.github.io/gtsummary-presentation-rladies/#1). 
 
 ### Github Packages
+
+#### `spikeyglass`
+I collaborated with Dr. Richard Li from UC Santa Cruz to convert his method "Bayesian Joint Spike-and-slab Graphical Lasso" (SSJGL) into an easy-to-use R package called [`spikeyglass`](https://mljaniczek.github.io/spikeyglass/). See [here](https://mljaniczek.github.io/ssjgl-tutorial/) for an applied tutorial using this method on real-world metabolomics data. 
+
 #### `nebula`
 I maintain the [nebula](https://nebula-group.github.io/nebula/index.html) package, which implements network-based latent-Dirichlet subtype analysis. 
 

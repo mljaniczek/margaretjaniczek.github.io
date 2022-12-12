@@ -13,7 +13,7 @@
 
 <title>Presentations</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
@@ -62,6 +62,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -82,6 +83,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -139,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -234,7 +242,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -293,21 +301,55 @@ $(document).ready(function () {
 </div>
 
 
-<p>####Using Clustering Methods on High-Dimensional Genomic Data in Cancer: Two Projects Presentation: 2/12/2018, Memorial Sloan Kettering Department of Epidemiology and Biostatistics</p>
-<p><i> I was invited to give an hour-long seminar on my recent research which utilized various clustering algorithms to reduce dimensionality of genomic data. Slides from my presentation can be found <a href="Downloads/clustering_presentation.pdf">here</a>. </i></p>
-<div id="split-match-replace-regular-expressions-to-manipulate-multiple-datatypes-in-r" class="section level4">
-<h4>Split, Match, Replace: Regular Expressions to manipulate multiple datatypes in R</h4>
-<p>Presentation: 10/9/2017, <a href="https://columbia-computing-club.github.io/">Columbia Biostatistics Computing Club</a> Seminar</p>
-<p><i> I led an interactive data manipulation tutorial with some useful regular-expression pattern matching base functions in R such as gsub, grep, strsplit, substr and others. I provided attendees with R code and three example data sets (different types of genomic data), and the goal was for everyone to practice molding them into compatible matrices for use in further analysis. My code and datasets from the presentation can be found on the <a href="https://columbia-computing-club.github.io/resources/">CBCC resources site</a>. </i></p>
+<p>####Using Clustering Methods on High-Dimensional Genomic Data in
+Cancer: Two Projects Presentation: 2/12/2018, Memorial Sloan Kettering
+Department of Epidemiology and Biostatistics</p>
+<p><i> I was invited to give an hour-long seminar on my recent research
+which utilized various clustering algorithms to reduce dimensionality of
+genomic data. Slides from my presentation can be found
+<a href="Downloads/clustering_presentation.pdf">here</a>. </i></p>
+<div
+id="split-match-replace-regular-expressions-to-manipulate-multiple-datatypes-in-r"
+class="section level4">
+<h4>Split, Match, Replace: Regular Expressions to manipulate multiple
+datatypes in R</h4>
+<p>Presentation: 10/9/2017, <a
+href="https://columbia-computing-club.github.io/">Columbia Biostatistics
+Computing Club</a> Seminar</p>
+<p><i> I led an interactive data manipulation tutorial with some useful
+regular-expression pattern matching base functions in R such as gsub,
+grep, strsplit, substr and others. I provided attendees with R code and
+three example data sets (different types of genomic data), and the goal
+was for everyone to practice molding them into compatible matrices for
+use in further analysis. My code and datasets from the presentation can
+be found on the <a
+href="https://columbia-computing-club.github.io/resources/">CBCC
+resources site</a>. </i></p>
 </div>
-<div id="overview-of-breast-cancer-subtype-classification-research" class="section level4">
+<div id="overview-of-breast-cancer-subtype-classification-research"
+class="section level4">
 <h4>Overview of Breast Cancer Subtype Classification Research</h4>
-<p>Presentation: July 26, 2017, Memorial Sloan Kettering Department of Epidemiology and Biostatistics</p>
-<p><i> I presented an overview of my practicum research project at a departmental meeting. Please see <a href="Downloads/Project Summary Hannum.pdf">here</a> for the slides. </i></p>
+<p>Presentation: July 26, 2017, Memorial Sloan Kettering Department of
+Epidemiology and Biostatistics</p>
+<p><i> I presented an overview of my practicum research project at a
+departmental meeting. Please see
+<a href="Downloads/Project Summary Hannum.pdf">here</a> for the slides.
+</i></p>
 </div>
 <div id="tutorial-on-tcga-assembler" class="section level4">
 <h4>Tutorial on TCGA Assembler</h4>
-<p><i> I created a <a href="Downloads/TCGA-methods-draft summary.pdf">written summary</a> and <a href="Downloads/MHannum TCGA Methods1.pdf">presentation</a> on how to use the R Package <a href="http://www.compgenome.org/TCGA-Assembler/">TCGA Assembler</a> (package written by <a href="https://www.northshore.org/research-institute/investigators/yitan-zhu-phd/">Yitan Zhu</a> and <a href="http://health.bsd.uchicago.edu/yji/">Yuan Ji</a> ) for the Spring 2017 course Advanced Statistical and Computational Methods for Genetics and Genomics. The presentation describes how to use the package TCGA Assembler to download and assemble data from The Cancer Genome Atlas prior to analysis.</i></p>
+<p><i> I created a
+<a href="Downloads/TCGA-methods-draft summary.pdf">written summary</a>
+and <a href="Downloads/MHannum TCGA Methods1.pdf">presentation</a> on
+how to use the R Package <a
+href="http://www.compgenome.org/TCGA-Assembler/">TCGA Assembler</a>
+(package written by <a
+href="https://www.northshore.org/research-institute/investigators/yitan-zhu-phd/">Yitan
+Zhu</a> and <a href="http://health.bsd.uchicago.edu/yji/">Yuan Ji</a> )
+for the Spring 2017 course Advanced Statistical and Computational
+Methods for Genetics and Genomics. The presentation describes how to use
+the package TCGA Assembler to download and assemble data from The Cancer
+Genome Atlas prior to analysis.</i></p>
 </div>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">

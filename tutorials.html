@@ -13,7 +13,7 @@
 
 <title>Tutorials</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
@@ -62,6 +62,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -82,6 +83,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -139,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -234,7 +242,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -295,24 +303,54 @@ $(document).ready(function () {
 
 <div id="joint-graphical-lasso" class="section level3">
 <h3>Joint Graphical Lasso</h3>
-<p>I created a detailed tutorial describing how to use Joint Graphical Lasso (Danaher et. al) analysis in R, with examples using a real-world metabolomics dataset. You can view the full tutorial <a href="https://mljaniczek.github.io/jgl-tutorial">here</a>.</p>
-<p><em>Presented on 4/1/2022 and 4/8/2022 at UMass Amherst PhD Biostatistics Seminar.</em></p>
+<p>I created a detailed tutorial describing how to use Joint Graphical
+Lasso (Danaher et. al) analysis in R, with examples using a real-world
+metabolomics dataset. You can view the full tutorial <a
+href="https://mljaniczek.github.io/jgl-tutorial">here</a>.</p>
+<p><em>Presented on 4/1/2022 and 4/8/2022 at UMass Amherst PhD
+Biostatistics Seminar.</em></p>
+</div>
+<div id="bayesian-joint-spike-and-slab-graphical-lasso"
+class="section level3">
+<h3>Bayesian Joint Spike-and-slab Graphical Lasso</h3>
+<p>As a follow-up to the above, I created a tutorial describing how to
+use Bayesian Joint-Spike-and-slab Graphical Lasso with the same
+metabolomics dataset. View the full tutorial <a
+href="https://mljaniczek.github.io/ssjgl-tutorial/">here</a>.</p>
+</div>
+<div id="bayesian-spike-and-slab-graphical-lasso"
+class="section level3">
+<h3>Bayesian spike-and-slab Graphical Lasso</h3>
+<p>I created a detailed tutorial describing how to use Bayesian Joint
+Spike-and-slab Graphical Lasso (Li et. al) analysis in R, with examples
+using a real-world metabolomics dataset. You can view the full tutorial
+<a href="https://mljaniczek.github.io/ssjgl-tutorial">here</a>.</p>
+<p><em>Presented on 4/1/2022 and 4/8/2022 at UMass Amherst PhD
+Biostatistics Seminar.</em></p>
 </div>
 <div id="tidy-lasso-results" class="section level3">
 <h3>Tidy Lasso results</h3>
-<p>I created <a href="https://mljaniczek.github.io/lasso-tutorial">this brief tutorial</a> which shows how to:</p>
+<p>I created <a href="https://mljaniczek.github.io/lasso-tutorial">this
+brief tutorial</a> which shows how to:</p>
 <ul>
-<li>Extract <code>cv.glmnet()</code> results using <code>broom::tidy</code></li>
+<li>Extract <code>cv.glmnet()</code> results using
+<code>broom::tidy</code></li>
 <li>Plot those tidy results with <code>ggplot</code><br />
 </li>
-<li>Calculate a permutation p-value for the min-lambda CV lasso estimates<br />
+<li>Calculate a permutation p-value for the min-lambda CV lasso
+estimates<br />
 </li>
-<li>Add useful visualizations to add to your lasso analysis (like histogram of permutation estimates and pretty heatmap of variable correlations)</li>
+<li>Add useful visualizations to add to your lasso analysis (like
+histogram of permutation estimates and pretty heatmap of variable
+correlations)</li>
 </ul>
 </div>
 <div id="gtsummary" class="section level3">
 <h3>gtsummary</h3>
-<p>I presented a <a href="http://mljaniczek.github.io/gtsummary-presentation-rladies/#1">tutorial</a> on the <a href="http://www.danieldsjoberg.com/gtsummary/">gtsummary</a> package at RLadies NYC in February 2020.</p>
+<p>I presented a <a
+href="http://mljaniczek.github.io/gtsummary-presentation-rladies/#1">tutorial</a>
+on the <a href="http://www.danieldsjoberg.com/gtsummary/">gtsummary</a>
+package at RLadies NYC in February 2020.</p>
 </div>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
