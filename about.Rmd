@@ -7,7 +7,7 @@ title: "About"
 
 ```{r, echo = FALSE, out.width = "20%"}
 library(knitr)
-knitr::include_graphics("janiczek.jpg")
+knitr::include_graphics("janiczek_small2022.png")
 ```
 
 I am a doctoral student at [UMass Amherst Department of Biostatistics](https://www.umass.edu/sphhs/biostatistics), in [Raji Balasubramanian](https://raji-lab.github.io/)'s lab. I completed my MS in Biostatistics at [Columbia University Mailman School of Public Health](https://www.mailman.columbia.edu/) in 2018. 
