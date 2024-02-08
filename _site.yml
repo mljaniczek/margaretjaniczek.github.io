@@ -9,6 +9,8 @@ navbar:
       href: software.html
     - text: Tutorials
       href: tutorials.html
+    - text: Cozy Robots
+      href: cozyrobots.html
     - icon: fa-envelope fa-lg
       href: mailto:<mjancizek@umass.edu>
     - icon: fa-twitter fa-lg

@@ -1,0 +1,27 @@
+---
+title: "Tutorials"
+---
+
+
+### Joint Graphical Lasso
+
+I created a detailed tutorial describing how to use Joint Graphical Lasso (Danaher et. al) analysis in R, with examples using a real-world metabolomics dataset. You can view the full tutorial [here](https://mljaniczek.github.io/jgl-tutorial). 
+
+*Presented on 4/1/2022 and 4/8/2022 at UMass Amherst PhD Biostatistics Seminar.*
+
+### Bayesian Joint Spike-and-slab Graphical Lasso
+As a follow-up to the above, I created a tutorial describing how to use Bayesian Joint-Spike-and-slab Graphical Lasso with the same metabolomics dataset. View the full tutorial [here](https://mljaniczek.github.io/ssjgl-tutorial/). 
+
+### Tidy Lasso results
+
+I created [this brief tutorial](https://mljaniczek.github.io/lasso-tutorial) which shows how to:
+
+* Extract `cv.glmnet()` results using `broom::tidy`
+* Plot those tidy results with `ggplot`  
+* Calculate a permutation p-value for the min-lambda CV lasso estimates  
+* Add useful visualizations to add to your lasso analysis (like histogram of permutation estimates and pretty heatmap of variable correlations)  
+
+
+### gtsummary
+
+I presented a [tutorial](http://mljaniczek.github.io/gtsummary-presentation-rladies/#1) on the [gtsummary](http://www.danieldsjoberg.com/gtsummary/) package at RLadies NYC in February 2020.
